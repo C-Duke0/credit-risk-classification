@@ -13,3 +13,4 @@ The overall accuracy of the model was 99%.
 * High risk: Precision 85%, Recall 91%, F1-score 88%, Suppot 619
 
 ## Summary:
+The model performs very well for identifying low risk loans, with a nearly perfect precision score. When it comes to predicting high risk loans there is room for improvement. Given that there are many more instances of low risk loans in the dataset a more balanced set of data could aid in improving future models ability to detect higher risk loans. Given the lower accuracy of class 2 (high risk) I would likely recomment additional measures such as resampling the data or adjusting the class weights to define a better prediction model before preceeding with the current one. 
